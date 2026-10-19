@@ -1,0 +1,12 @@
+{
+  "name": "sass-installation-cli",
+  "version": "1.0.0",
+  "description": "Thực hành cài đặt và sử dụng SASS CLI",
+  "scripts": {
+    "build": "sass --no-source-map --silence-deprecation=import scss/styles.scss css/styles.css",
+    "watch": "sass --watch --silence-deprecation=import scss/styles.scss css/styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  }
+}
